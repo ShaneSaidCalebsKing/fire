@@ -1,1 +1,20 @@
-<h1>RunningFred-gh-pages game content goes here</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Running Fred - Iron Fred</title>
+  <script>
+    // Set Iron Fred as the default character (no skullies)
+    localStorage.setItem("fred_data", JSON.stringify({
+      character: "ironfred",
+      unlocked: ["ironfred"]
+    }));
+
+    // Redirect to the actual game page
+    window.location.href = "game.html";
+  </script>
+</head>
+<body>
+  <p>Loading Running Fred...</p>
+</body>
+</html>
